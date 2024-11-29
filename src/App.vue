@@ -135,31 +135,31 @@ export default defineComponent({
 				/>
 				<LabelInput
 					idName="att-input"
-					text="Attack"
+					text="物攻"
 					:defaultVal="String(graphState.att)"
 					@statChanged="onAttChanged"
 				/>
 				<LabelInput
 					idName="def-input"
-					text="Defense"
+					text="物防"
 					:defaultVal="String(graphState.def)"
 					@statChanged="onDefChanged"
 				/>
 				<LabelInput
 					idName="spA-input"
-					text="Sp. Attack"
+					text="特攻"
 					:defaultVal="String(graphState.spA)"
 					@statChanged="onSpAChanged"
 				/>
 				<LabelInput
 					idName="spD-input"
-					text="Sp. Defense"
+					text="特防"
 					:defaultVal="String(graphState.spD)"
 					@statChanged="onSpDChanged"
 				/>
 				<LabelInput
 					idName="spe-input"
-					text="Speed"
+					text="速度"
 					:defaultVal="String(graphState.spe)"
 					@statChanged="onSpeChanged"
 				/>

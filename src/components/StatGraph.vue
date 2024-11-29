@@ -49,38 +49,38 @@ export default defineComponent({
 			<StatBar
 				class="att-bar"
 				barId="bar-att"
-				label="Attack"
+				label="物攻"
 				:stat="graphState.att"
 			/>
 			<StatBar
 				class="def-bar"
 				barId="bar-def"
-				label="Defense"
+				label="物防"
 				:stat="graphState.def"
 			/>
 			<StatBar
 				class="spA-bar"
 				barId="bar-spA"
-				label="Sp. Atk"
+				label="特攻"
 				:stat="graphState.spA"
 			/>
 			<StatBar
 				class="spD-bar"
 				barId="bar-spD"
-				label="Sp. Def"
+				label="特防"
 				:stat="graphState.spD"
 			/>
 			<StatBar
 				class="spe-bar"
 				barId="bar-spe"
-				label="Speed"
+				label="速度"
 				:stat="graphState.spe"
 			/>
 			<StatBar
 				v-show="graphState.showTotal"
 				class="tot-bar"
 				barId="bar-tot"
-				label="Total"
+				label="总计"
 				:stat="graphState.total"
 				:isTotal="true"
 			/>
